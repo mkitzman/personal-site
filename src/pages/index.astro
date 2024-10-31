@@ -8,61 +8,67 @@ const MAX_POSTS = 10;
 const allPosts = await getAllPosts();
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 
-const cactusTech: { desc: string; href: string; title: string }[] = [
+const mikeTech: { desc: string; href: string; title: string }[] = [
 	{
-		desc: "Build fast websites, faster.",
+		desc: "Building fast, scalable web applications in React ecosystem.",
 		href: "https://astro.build",
-		title: "Astro",
+		title: "Javascript/React",
 	},
 	{
-		desc: "Rapidly build modern websites without ever leaving your HTML.",
+		desc: "Expericence with CSS in all forms, SASS, CSS in JS, Utility, Tailwind",
 		href: "https://tailwindcss.com",
-		title: "Tailwind CSS",
+		title: "CSS",
 	},
 	{
-		desc: "Simple and easy-to-use markup language.",
+		desc: "Well-versed in semantic HTML for accessible, structured content.",
 		href: "https://www.markdownguide.org/",
-		title: "Markdown",
+		title: "HTML",
 	},
 	{
-		desc: "Markdown for the component era.",
+		desc: "Design and develop inclusive products.",
 		href: "https://mdxjs.com/",
-		title: "MDX",
+		title: "Accessibility",
 	},
 	{
-		desc: "Generating png Open Graph images for blog posts.",
+		desc: "Led DS teams and built design systems from scratch. ",
 		href: "https://github.com/vercel/satori",
-		title: "Satori",
+		title: "Design Systems",
 	},
 	{
-		desc: "A fully static search library.",
+		desc: "Jest, React Testing Library, Chrome Dev Tools, A11Y tools.",
 		href: "https://pagefind.app/",
-		title: "Pagefind",
+		title: "Testing",
 	},
 	{
-		desc: "An easy to use Icon component for Astro.",
+		desc: "Webpack, Babel, ESLint, Github, Github Actions, DataDog, Sentry, CI/CD.",
+		href: "https://pagefind.app/",
+		title: "DivOps",
+	},
+	{
+		desc: "Responsive Web Design, Mobile-First, PageSpeed Insights, Lighthouse",
 		href: "https://github.com/natemoo-re/astro-icon#readme",
-		title: "Astro Icon",
-	},
-	{
-		desc: "Highly customisable source code & syntax highlighter",
-		href: "https://expressive-code.com/",
-		title: "Expressive Code",
+		title: "Web Apps",
 	},
 ];
 ---
 
 <PageLayout meta={{ title: "Home" }}>
 	<section>
-		<h1 class="title mb-6">Hello World!</h1>
+		<h1 class="title mb-6">Hi! 👋</h1>
 		<p class="mb-4">
-			Hi, I’m a theme for Astro, a simple starter that you can use to create your website or blog.
-			If you want to know more about how you can customise me, add more posts, and make it your own,
-			click on the GitHub icon link below and it will take you to my repo.
+			I'm a highly accomplished Front End Engineer with a proven track record of
+			building scalable, accessible, and visually stunning web applications
+			primarly using React, TypeScript, CSS, and HTML. With experience
+			contributing to world-class websites serving billions of users globally, I
+			excel at crafting seamless user experiences and driving best practices in
+			accessibility, design systems, and front-end innovation.
 		</p>
 		<SocialList />
 	</section>
-	<section aria-label="Blog post list" class="mt-16">
+	<div class="mx-auto mt-8 max-w-4xl">
+		<hr aria-hidden="true" class="border-skin-line" />
+	</div>
+	<section aria-label="Blog post list" class="mt-12">
 		<h2 class="title mb-4 text-xl">Posts</h2>
 		<ul class="space-y-4">
 			{
@@ -76,14 +82,19 @@ const cactusTech: { desc: string; href: string; title: string }[] = [
 		</ul>
 	</section>
 	<section class="mt-16">
-		<h2 class="title mb-4 text-xl">Technologies</h2>
+		<h2 class="title mb-4 text-xl">Skillset</h2>
 		<dl class="space-y-4">
 			{
-				cactusTech.map(({ desc, href, title }) => (
+				mikeTech.map(({ desc, href, title }) => (
 					<div class="flex flex-col gap-2 sm:flex-row">
 						<dt>
 							<span class="flex">
-								<a class="cactus-link" href={href} rel="noreferrer" target="_blank">
+								<a
+									class="cactus-link"
+									href={href}
+									rel="noreferrer"
+									target="_blank"
+								>
 									{title}
 								</a>
 								:

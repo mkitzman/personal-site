@@ -1,0 +1,243 @@
+---
+import { Image } from "astro:assets";
+import aboutImg from "@/assets/about-astro.png";
+import PageLayout from "@/layouts/Base.astro";
+
+const meta = {
+	description: "I'm a starter theme for Astro.build",
+	title: "About",
+};
+---
+
+<PageLayout meta={meta}>
+	<div class="space-y-6">
+		<h1 class="title">Uses</h1>
+		<p>
+			A list of /uses detailing my developer setups, gear, software and configs.
+			Based off of
+			<a
+				class="cactus-link inline-block font-semibold"
+				href="https://wesbos.com/uses"
+				rel="noreferrer"
+				target="_blank">Wes Bos's</a
+			>
+			<a
+				class="cactus-link inline-block font-semibold"
+				href="https://uses.tech/like/React"
+				rel="noreferrer"
+				target="_blank">uses.tech</a
+			>
+		</p>
+		<p>Last updated October 2024</p>
+		<h2 class="title">Development</h2>
+		<ul class="list-inside list-disc">
+			<li class="mb-4">
+				<a
+					class="cactus-link inline-block font-semibold"
+					href="https://code.visualstudio.com"
+					rel="noreferrer"
+					target="_blank">VS Code</a
+				> - It's fine but I would be open to switching if something better comes
+				along.
+			</li>
+			<li class="mb-4">
+				<a
+					class="cactus-link inline-block font-semibold"
+					href="https://arc.net/"
+					rel="noreferrer"
+					target="_blank">Arc</a
+				> - Best browser around. Hands. Down.
+			</li>
+			<li class="mb-4">
+				<a
+					class="cactus-link inline-block font-semibold"
+					href="https://www.warp.dev/"
+					rel="noreferrer"
+					target="_blank">Warp</a
+				> - For command line, mostly because I always mistype “git checkout” as “git
+				chekcout” and its easy to fix without having to know shortcuts. Has a lot
+				of cool features though.
+			</li>
+			<li class="mb-4">
+				<a
+					class="cactus-link inline-block font-semibold"
+					href="https://affinity.serif.com/en-us/designer/"
+					rel="noreferrer"
+					target="_blank">Affinity Photo and Designer</a
+				> - Just as good for what I do as illustrator minus the exorbitant monthly
+				cost
+			</li>
+			<li class="mb-4">
+				<a
+					class="cactus-link inline-block font-semibold"
+					href="https://www.pixelmator.com/pro/"
+					rel="noreferrer"
+					target="_blank">Pixelmator Pro</a
+				> - Not as good as photoshop but for what I need does a great job and again
+				I can pay one time.
+			</li>
+		</ul>
+		<h2 class="title">Hardware</h2>
+		<ul class="list-inside list-disc">
+			<li class="mb-4">
+				<a
+					class="cactus-link inline-block font-semibold"
+					href="https://www.apple.com/shop/buy-mac/macbook-pro/16-inch"
+					rel="noreferrer"
+					target="_blank">2021 16 inch Apple Mac Book Pro</a
+				> with the M1 chip
+			</li>
+			<li class="mb-4">
+				<a
+					class="cactus-link inline-block font-semibold"
+					href="https://www.amazon.com/gp/product/B09XVLVRWD/"
+					rel="noreferrer"
+					target="_blank">LG 24-Inch HD monitor</a
+				> - Pretty good monitor for only $150.
+			</li>
+			<li class="mb-4">
+				<a
+					class="cactus-link inline-block font-semibold"
+					href="https://www.amazon.com/Apple-iPhone-15-Pro-Max/dp/B0CMZDBVWT?th=1"
+					rel="noreferrer"
+					target="_blank">Iphone 15 Pro Max</a
+				> - The maximum amount of Pro that once can handle. Blue Titanium cbeause
+				every other phone I have had has been black.
+			</li>
+			<li class="mb-4">
+				<a
+					class="cactus-link inline-block font-semibold"
+					href="https://nomadgoods.com/products/modern-leather-case-horween-rustic-brown-iphone-15-pro"
+					rel="noreferrer"
+					target="_blank">Nomad Horween Leather IPhone Case</a
+				> - All of Nomad's products are amazing. This is probably the best case I
+				haver owned.
+			</li>
+			<li class="mb-4">
+				<a
+					class="cactus-link inline-block font-semibold"
+					href="https://www.logitech.com/en-us/products/mice/mx-master-3s.html"
+					rel="noreferrer"
+					target="_blank">MX Master 3S mouse</a
+				> - MX Master lifer, I'll never buy a different mouse.
+			</li>
+			<li class="mb-4">
+				<a
+					class="cactus-link inline-block font-semibold"
+					href="https://www.apple.com/shop/product/MXCK3LL/A/magic-keyboard-with-touch-id-for-mac-models-with-apple-silicon-usb-c-us-english"
+					rel="noreferrer"
+					target="_blank">Apple Magic Keyboard</a
+				> - Another accessories I will always buy. Love this keyboard. I have the
+				version without the Touch ID but I want that one.
+			</li>
+			<li class="mb-4">
+				<a
+					class="cactus-link inline-block font-semibold"
+					href="https://grovemade.com/product/leather-desk-pad/?initial=547"
+					rel="noreferrer"
+					target="_blank">Grovemade Leather Desk Pad</a
+				> - I've had this for a bunch of years and it has really held up, their products
+				are top notch.
+			</li>
+			<li class="mb-4">
+				<a
+					class="cactus-link inline-block font-semibold"
+					href="https://www.raindesigninc.com/mstand.html"
+					rel="noreferrer"
+					target="_blank">Rain mStand Mackbook Desk stand</a
+				> - I have had the same one since 2005! High quality.
+			</li>
+			<li class="mb-4">
+				<a
+					class="cactus-link inline-block font-semibold"
+					href="https://www.upliftdesk.com/standing-desks/"
+					rel="noreferrer"
+					target="_blank">Uplift Bamboo Desk</a
+				> - This was the main desk that my work had before covid. I liked it so much
+				I bought one for home.
+			</li>
+			<li class="mb-4">
+				<a
+					class="cactus-link inline-block font-semibold"
+					href="https://www.amazon.com/Edifier-R1280DBs-Bluetooth-Bookshelf-Speakers/dp/B08865JM4N"
+					rel="noreferrer"
+					target="_blank"
+					>Edifier R1280DBs Speakers
+				</a> - Amazing sound for $130
+			</li>
+			<li class="mb-4">
+				<a
+					class="cactus-link inline-block font-semibold"
+					href="https://us.focusrite.com/products/scarlett-2i2"
+					rel="noreferrer"
+					target="_blank"
+					>Focus Rite Scarlett 2i2 Audio Interface
+				</a> - Used to have a direct connection so as to get the highest quality
+				sound out of Apple music
+			</li>
+		</ul>
+		<h2 class="title">Apps</h2>
+		<ul class="list-inside list-disc">
+			<li class="mb-4">
+				<a
+					class="cactus-link inline-block font-semibold"
+					href="https://cleanmymac.com"
+					rel="noreferrer"
+					target="_blank">CleanMyMac</a
+				> - Great utility app for cleaning your Mac hard drive.
+			</li>
+			<li class="mb-4">
+				<a
+					class="cactus-link inline-block font-semibold"
+					href="https://music.apple.com/us/new"
+					rel="noreferrer"
+					target="_blank">Apple Music</a
+				> I've been streaming music before you were born. Rhapsody was my first one
+				but then Spotify came around and destroyed it. After using Spotify for over
+				10 years I switched to Apple Music and I'll never go back. As I tell everyone,
+				Spotify treats music as just a list of files you play along side podcasts
+				and other non music related content. The Apple music experience is just so
+				much better all around. Also Apple Music Spatial Audio on Apple TV with with
+				Sonos Arc + 2 Sonos Ones is EPIC.
+			</li>
+			<li class="mb-4">
+				<a
+					class="cactus-link inline-block font-semibold"
+					href="https://www.apple.com/apple-news/"
+					rel="noreferrer"
+					target="_blank">Apple News</a
+				> - One of my many news sources but I really like it. Shines on an IPad when
+				viewing magazines. Also the audio versions of stories are high quality and
+				sound great.
+			</li>
+			<li class="mb-4">
+				<a
+					class="cactus-link inline-block font-semibold"
+					href="https://slack.com/"
+					rel="noreferrer"
+					target="_blank">Slack</a
+				> - It's not as good as it used to be but still the best of the bunc. Salesforce
+				is starting to bloat it up and add features no one needs.
+			</li>
+			<li class="mb-4">
+				<a
+					class="cactus-link inline-block font-semibold"
+					href="https://replay.software/sleeve"
+					rel="noreferrer"
+					target="_blank">Sleeve 2</a
+				> - Nice little app that sits on my desktop, displaying and controlling Apple
+				Music. Lots of customization options.
+			</li>
+			<li class="mb-4">
+				<a
+					class="cactus-link inline-block font-semibold"
+					href="https://sparkmailapp.com/"
+					rel="noreferrer"
+					target="_blank">Spark Mail</a
+				> - It's pretty good, I use the old version. I tried the newer version when
+				it came out but it was completely different, I don't think anyone liked it.
+				Might have to revisit
+			</li>
+		</ul>
+	</div>
+</PageLayout>
