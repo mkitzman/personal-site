@@ -3,7 +3,6 @@ title: "New Website"
 description: "Thoughts on my new website and the technologies I used"
 publishDate: "1 November 2024"
 tags: ["updates"]
-draft: true
 ---
 
 I've finally launched a newly redesigned website. Unlike previous updates, where I would start from scratch and build it using my current programming language of choice, this time I took a different approach.
