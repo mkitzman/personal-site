@@ -6,7 +6,10 @@ import ThemeToggle from "../ThemeToggle.astro";
 const url = new URL(Astro.request.url);
 ---
 
-<header class="group relative mb-28 flex items-center sm:ps-[4.5rem]" id="main-header">
+<header
+	class="group relative mb-28 flex items-center sm:ps-[4.5rem]"
+	id="main-header"
+>
 	<div class="flex sm:flex-col">
 		<a
 			aria-current={url.pathname === "/" ? "page" : false}
@@ -15,23 +18,17 @@ const url = new URL(Astro.request.url);
 		>
 			<svg
 				aria-hidden="true"
+				aria-label="Icon from the Noun Project"
 				class="me-3 h-10 w-6 sm:absolute sm:start-[-4.5rem] sm:me-0 sm:h-20 sm:w-12"
-				fill="none"
-				focusable="false"
-				viewBox="0 0 272 480"
 				xmlns="http://www.w3.org/2000/svg"
-			>
-				<title>Logo</title>
-				<path
-					d="M181.334 93.333v-40L226.667 80v40l-45.333-26.667ZM136.001 53.333 90.667 26.667v426.666L136.001 480V53.333Z"
-					fill="#B04304"></path>
-				<path
-					d="m136.001 119.944 45.333-26.667 45.333 26.667-45.333 26.667-45.333-26.667ZM90.667 26.667 136.001 0l45.333 26.667-45.333 26.666-45.334-26.666ZM181.334 53.277l45.333-26.666L272 53.277l-45.333 26.667-45.333-26.667ZM0 213.277l45.333-26.667 45.334 26.667-45.334 26.667L0 213.277ZM136 239.944l-45.333-26.667v53.333L136 239.944Z"
-					fill="#FF5D01"></path>
-				<path
-					d="m136 53.333 45.333-26.666v120L226.667 120V80L272 53.333V160l-90.667 53.333v240L136 480V306.667L45.334 360V240l45.333-26.667v53.334L136 240V53.333Z"
-					fill="#53C68C"></path>
-				<path d="M45.334 240 0 213.334v120L45.334 360V240Z" fill="#B04304"></path>
+				viewBox="0 0 64 80"
+				x="0px"
+				y="0px"
+				><g data-name="geometric"
+					><path
+						d="M54.2302,21.1264l-21.36,37a1.00689,1.00689,0,0,1-1.74,0l-21.36-37a1.007,1.007,0,0,1,.87-1.5h6.94l12.69,21.98a1.99642,1.99642,0,0,0,3.46,0l12.69-21.98h6.94A1.00665,1.00665,0,0,1,54.2302,21.1264Zm-35.5-1.5,12.4,21.48a1.014,1.014,0,0,0,1.74,0l12.4-21.48.85-1.48a.99347.99347,0,0,0,0-1c-.39256-.77818-1.71252-.42688-2.59-.5-.21069.36323-.96365,1.66134-1.16,2h1.16l-.57.98-10.96,18.98-10.96-18.98-.57-.98h1.16c-.19229-.3316-.9538-1.64445-1.16-2-.883.07318-2.19178-.27865-2.58995.5C17.40055,17.87134,18.37672,18.86331,18.7302,19.6264Zm1.75-4.98c1.9781,3.4336,8.56971,14.84047,10.65,18.46a1.00691,1.00691,0,0,0,1.74,0l7.76-13.46c1.63755-2.78717,3.83758-6.66018,5.49005-9.50007a1.00749,1.00749,0,0,0-.86008-1.49991l-6.68,0a8.1372,8.1372,0,0,1,1.62,5.57.01877.01877,0,0,1,0,.03,8.22224,8.22224,0,1,1-14.77-5.6h-6.69a1.00722,1.00722,0,0,0-.86,1.5Zm6.23-6a7.28708,7.28708,0,0,1,10.59,0h1.28a8.24093,8.24093,0,0,0-13.15,0Zm-.38.45c-4.94858,6.43819,2.67767,14.88414,9.59005,10.5499A7.28942,7.28942,0,0,0,37.30021,8.64642h-10.59C26.57023,8.79644,26.45023,8.9464,26.33024,9.09643Z"
+					></path></g
+				>
 			</svg>
 			<span class="text-xl font-bold sm:text-2xl">Michael Kitzman</span><br />
 			<span class="text-xl font-bold sm:text-2xl">Sr. Frontend Engineer</span>
@@ -77,8 +74,10 @@ const url = new URL(Astro.request.url);
 				viewBox="0 0 24 24"
 				xmlns="http://www.w3.org/2000/svg"
 			>
-				<path d="M3.75 9h16.5m-16.5 6.75h16.5" stroke-linecap="round" stroke-linejoin="round"
-				></path>
+				<path
+					d="M3.75 9h16.5m-16.5 6.75h16.5"
+					stroke-linecap="round"
+					stroke-linejoin="round"></path>
 			</svg>
 			<svg
 				aria-hidden="true"
@@ -92,7 +91,10 @@ const url = new URL(Astro.request.url);
 				viewBox="0 0 24 24"
 				xmlns="http://www.w3.org/2000/svg"
 			>
-				<path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path>
+				<path
+					d="M6 18L18 6M6 6l12 12"
+					stroke-linecap="round"
+					stroke-linejoin="round"></path>
 			</svg>
 		</button>
 	</mobile-button>

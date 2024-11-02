@@ -7,10 +7,14 @@ Personal website I created using Astro/Tailwind CSS and Netlify. Built off of th
 ## Table Of Contents
 
 1. [Key Features](#key-features)
-2. [Live Site](#-live-site💻)
-3. [Commands](#commands)
+2. [Commands](#commands)
+3. [Live Site](#-live-site💻)
 4. [Acknowledgment](#acknowledgment)
 5. [Acknowledgment](#license)
+
+## Live Site 💻
+
+Check it out at [michaelkitzman.com](https://michaelkitzman.com), hosted on Netlify
 
 ## Key Features
 
@@ -33,10 +37,6 @@ Personal website I created using Astro/Tailwind CSS and Netlify. Built off of th
 - [Pagefind](https://pagefind.app/) static search library integration
 - [Astro Icon](https://github.com/natemoo-re/astro-icon) svg icon component
 - [Expressive Code](https://expressive-code.com/) source code and syntax highlighter
-
-## Live Site 💻
-
-Check it out at [michaelkitzman.com](https://michaelkitzman.com), hosted on Netlify
 
 ## Commands
 
