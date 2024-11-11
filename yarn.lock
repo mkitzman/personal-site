@@ -595,6 +595,13 @@
   dependencies:
     "@expressive-code/core" "^0.37.1"
 
+"@iconify-json/fa6-brands@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@iconify-json/fa6-brands/-/fa6-brands-1.2.1.tgz#200d72fc57533552eca924efbba81d717fb5870a"
+  integrity sha512-b/o9bDLZCP8qJV2dydewH+OWrpqmX94b7jHYnqzKaVpbuRRQX/qA9AROsy7rqHYup8fN2fCElQHvm6OYFmjkEA==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify-json/mdi@^1.2.0":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@iconify-json/mdi/-/mdi-1.2.1.tgz#029deff92cedf38430a9ed2ee811a8818f1ded43"
