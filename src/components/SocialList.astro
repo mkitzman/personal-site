@@ -13,9 +13,14 @@ const socialLinks: {
 	name: string;
 }[] = [
 	{
-		friendlyName: "Github",
-		link: "https://github.com/mkitzman",
-		name: "simple-icons:github",
+		friendlyName: "Apple Music",
+		link: "https://music.apple.com/profile/mikekitzman",
+		name: "simple-icons:applemusic",
+	},
+	{
+		friendlyName: "Instagram",
+		link: "https://www.instagram.com/mikek_pa",
+		name: "simple-icons:instagram",
 	},
 	{
 		friendlyName: "LinkedIn",
@@ -28,19 +33,14 @@ const socialLinks: {
 		name: "simple-icons:bluesky",
 	},
 	{
-		friendlyName: "Instagram",
-		link: "https://www.instagram.com/mikek_pa",
-		name: "simple-icons:instagram",
-	},
-	{
 		friendlyName: "CodePen",
 		link: "https://codepen.io/mkitzman",
 		name: "simple-icons:codepen",
 	},
 	{
-		friendlyName: "Apple Music",
-		link: "https://music.apple.com/profile/mikekitzman",
-		name: "simple-icons:applemusic",
+		friendlyName: "Github",
+		link: "https://github.com/mkitzman",
+		name: "simple-icons:github",
 	},
 ];
 ---
@@ -62,6 +62,7 @@ const socialLinks: {
 							class="h-8 w-8"
 							focusable="false"
 							name={name}
+							title={friendlyName}
 						/>
 						<span class="sr-only">{friendlyName}</span>
 					</a>
