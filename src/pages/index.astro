@@ -8,45 +8,37 @@ const MAX_POSTS = 10;
 const allPosts = await getAllPosts();
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 
-const mikeTech: { desc: string; href: string; title: string }[] = [
+const mikeTech: { desc: string; title: string }[] = [
 	{
 		desc: "Building fast, scalable web applications in React ecosystem.",
-		href: "https://astro.build",
 		title: "Javascript/React",
 	},
 	{
 		desc: "Expericence with CSS in all forms, SASS, CSS in JS, Utility, Tailwind",
-		href: "https://tailwindcss.com",
 		title: "CSS",
 	},
 	{
 		desc: "Well-versed in semantic HTML for accessible, structured content.",
-		href: "https://www.markdownguide.org/",
 		title: "HTML",
 	},
 	{
 		desc: "Design and develop inclusive products.",
-		href: "https://mdxjs.com/",
 		title: "Accessibility",
 	},
 	{
 		desc: "Led DS teams and built design systems from scratch. ",
-		href: "https://github.com/vercel/satori",
 		title: "Design Systems",
 	},
 	{
 		desc: "Jest, React Testing Library, Chrome Dev Tools, A11Y tools.",
-		href: "https://pagefind.app/",
 		title: "Testing",
 	},
 	{
 		desc: "Webpack, Babel, ESLint, Github, Github Actions, DataDog, Sentry, CI/CD.",
-		href: "https://pagefind.app/",
 		title: "DivOps",
 	},
 	{
 		desc: "Responsive Web Design, Mobile-First, PageSpeed Insights, Lighthouse",
-		href: "https://github.com/natemoo-re/astro-icon#readme",
 		title: "Web Apps",
 	},
 ];
@@ -85,14 +77,11 @@ const mikeTech: { desc: string; href: string; title: string }[] = [
 		<h2 class="title mb-4 text-xl">Skillset</h2>
 		<dl class="space-y-4">
 			{
-				mikeTech.map(({ desc, href, title }) => (
+				mikeTech.map(({ desc, title }) => (
 					<div class="flex flex-col gap-2 sm:flex-row">
 						<dt>
 							<span class="flex">
-								<a class="cactus-link" href={href} rel="noreferrer">
-									{title}
-								</a>
-								:
+								<strong>{title}</strong>:
 							</span>
 						</dt>
 						<dd>{desc}</dd>
