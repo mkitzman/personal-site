@@ -1452,10 +1452,10 @@ astro-expressive-code@^0.37.0:
   dependencies:
     rehype-expressive-code "^0.37.1"
 
-astro-icon@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/astro-icon/-/astro-icon-1.1.1.tgz#0a2e7c7f2f593e089edc7ff43e808789187ea21a"
-  integrity sha512-HKBesWk2Faw/0+klLX+epQVqdTfSzZz/9+5vxXUjTJaN/HnpDf608gRPgHh7ZtwBPNJMEFoU5GLegxoDcT56OQ==
+astro-icon@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/astro-icon/-/astro-icon-1.1.4.tgz#64cb630a82d42d4bf3814d7c56192e1b066de08a"
+  integrity sha512-sMLkQaevIQLv38WBzb/RDbsmxhg5+X+KcNmpTi9cE6MLurNWU1MPnlO87d9Vwg4HxTenKpDlYp81A3syXFW/gw==
   dependencies:
     "@iconify/tools" "^4.0.5"
     "@iconify/types" "^2.0.0"
