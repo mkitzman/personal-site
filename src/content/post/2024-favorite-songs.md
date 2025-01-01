@@ -1,6 +1,6 @@
 ---
 title: "2024 Favorite Songs"
-description: "A list of my favorite songs from 2024"
+description: "A list of my favorite songs from 2024 wiht a link to the playlist on Apple Music"
 publishDate: "14 Decemeber 2024"
 tags: ["music", "2024 end of year lists", "end of year lists"]
 ---
