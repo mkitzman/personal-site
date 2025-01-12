@@ -8,6 +8,41 @@ const meta = {
 	description: "About Michael Kitzman",
 	title: "About",
 };
+
+const mikeTech: { desc: string; title: string }[] = [
+	{
+		desc: "Building fast, scalable web applications in React and Vue ecosystems.",
+		title: "Javascript",
+	},
+	{
+		desc: "Expericence with CSS in all forms, SASS, CSS in JS, Utility, Tailwind",
+		title: "CSS",
+	},
+	{
+		desc: "Well-versed in semantic HTML for accessible, structured content.",
+		title: "HTML",
+	},
+	{
+		desc: "Design and develop inclusive products.",
+		title: "Accessibility",
+	},
+	{
+		desc: "Led DS teams and built design systems from scratch. ",
+		title: "Design Systems",
+	},
+	{
+		desc: "Jest, React Testing Library, Chrome Dev Tools, A11Y tools.",
+		title: "Testing",
+	},
+	{
+		desc: "Webpack, Babel, ESLint, Github, Github Actions, DataDog, Sentry, CI/CD.",
+		title: "DivOps",
+	},
+	{
+		desc: "Responsive Web Design, Mobile-First, PageSpeed Insights, Lighthouse",
+		title: "Web Apps",
+	},
+];
 ---
 
 <style>
@@ -55,6 +90,23 @@ const meta = {
 			design systems. I lead the Teachable Design System Uni ( docs in Storybook) and worked on the
 			Medallia Alchemy (docs in Gatsby) one that we started from scratch.
 		</p>
+		<section class="mt-16">
+			<h2 class="title mb-4 text-xl">Skillset</h2>
+			<dl class="space-y-4">
+				{
+					mikeTech.map(({ desc, title }) => (
+						<div class="flex flex-col gap-2 sm:flex-row">
+							<dt>
+								<span class="flex">
+									<strong>{title}</strong>:
+								</span>
+							</dt>
+							<dd>{desc}</dd>
+						</div>
+					))
+				}
+			</dl>
+		</section>
 		<section class="mt-16">
 			<h2 class="text-l title mb-4">Work</h2>
 			<ul>

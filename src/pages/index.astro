@@ -10,41 +10,6 @@ const allPosts = await getAllPosts();
 const allArticles = await getAllArticles();
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 const recentArticles = allArticles.slice(0, 5);
-
-const mikeTech: { desc: string; title: string }[] = [
-	{
-		desc: "Building fast, scalable web applications in React ecosystem.",
-		title: "Javascript/React",
-	},
-	{
-		desc: "Expericence with CSS in all forms, SASS, CSS in JS, Utility, Tailwind",
-		title: "CSS",
-	},
-	{
-		desc: "Well-versed in semantic HTML for accessible, structured content.",
-		title: "HTML",
-	},
-	{
-		desc: "Design and develop inclusive products.",
-		title: "Accessibility",
-	},
-	{
-		desc: "Led DS teams and built design systems from scratch. ",
-		title: "Design Systems",
-	},
-	{
-		desc: "Jest, React Testing Library, Chrome Dev Tools, A11Y tools.",
-		title: "Testing",
-	},
-	{
-		desc: "Webpack, Babel, ESLint, Github, Github Actions, DataDog, Sentry, CI/CD.",
-		title: "DivOps",
-	},
-	{
-		desc: "Responsive Web Design, Mobile-First, PageSpeed Insights, Lighthouse",
-		title: "Web Apps",
-	},
-];
 ---
 
 <PageLayout meta={{ title: "Home" }}>
@@ -101,23 +66,6 @@ const mikeTech: { desc: string; title: string }[] = [
 		<a class="cactus-link mt-8 flex whitespace-nowrap font-bold" href="/recommended/"
 			>More Recommendations</a
 		>
-	</section>
-	<section class="mt-16">
-		<h2 class="title mb-4 text-xl">Skillset</h2>
-		<dl class="space-y-4">
-			{
-				mikeTech.map(({ desc, title }) => (
-					<div class="flex flex-col gap-2 sm:flex-row">
-						<dt>
-							<span class="flex">
-								<strong>{title}</strong>:
-							</span>
-						</dt>
-						<dd>{desc}</dd>
-					</div>
-				))
-			}
-		</dl>
 	</section>
 	<section class="mt-16">
 		<h2 class="title mb-4 text-xl">About this site</h2>
