@@ -2,11 +2,14 @@
 import SocialList from "@/components/SocialList.astro";
 import PostPreview from "@/components/blog/PostPreview.astro";
 import { getAllPosts, sortMDByDate } from "@/data/post";
+import { getAllArticles } from "@/data/articles";
 import PageLayout from "@/layouts/Base.astro";
 
 const MAX_POSTS = 10;
 const allPosts = await getAllPosts();
+const allArticles = await getAllArticles();
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
+const recentArticles = allArticles.slice(0, 5);
 
 const mikeTech: { desc: string; title: string }[] = [
 	{
@@ -48,12 +51,11 @@ const mikeTech: { desc: string; title: string }[] = [
 	<section>
 		<h1 class="title mb-6">Hi I'm Michael! 👋</h1>
 		<p class="mb-4">
-			I'm a highly accomplished Front End Engineer with a proven track record of
-			building scalable, accessible, and visually stunning web applications
-			primarly using React, TypeScript, CSS, and HTML. With experience
-			contributing to world-class websites serving billions of users globally, I
-			excel at crafting seamless user experiences and driving best practices in
-			accessibility, design systems, and front-end innovation.
+			I'm a highly accomplished Front End Engineer with a proven track record of building scalable,
+			accessible, and visually stunning web applications primarly using React, TypeScript, CSS, and
+			HTML. With experience contributing to world-class websites serving billions of users globally,
+			I excel at crafting seamless user experiences and driving best practices in accessibility,
+			design systems, and front-end innovation.
 		</p>
 		<SocialList />
 	</section>
@@ -72,6 +74,33 @@ const mikeTech: { desc: string; title: string }[] = [
 				))
 			}
 		</ul>
+	</section>
+	<section aria-label="Blog post list" class="mt-12">
+		<h2 class="title mb-4 text-xl">Recommended Articles</h2>
+		<ul class="space-y-4">
+			{
+				recentArticles.map(({ desc, href, title, date, source }) => (
+					<li class="mb-8">
+						<a
+							class="cactus-link whitespace-nowrap font-bold"
+							href={href}
+							rel="noreferrer"
+							target="_blank"
+						>
+							{title}
+						</a>
+						<p class="mt-2">{desc}</p>
+						<span class="text-xs italic">
+							{date} - {source}
+						</span>
+					</li>
+				))
+			}
+		</ul>
+
+		<a class="cactus-link mt-8 flex whitespace-nowrap font-bold" href="/recommended/"
+			>More Recommendations</a
+		>
 	</section>
 	<section class="mt-16">
 		<h2 class="title mb-4 text-xl">Skillset</h2>
@@ -97,32 +126,19 @@ const mikeTech: { desc: string; title: string }[] = [
 				class="cactus-link"
 				href="https://github.com/chrismwilliams/astro-theme-cactus/tree/main"
 				rel="external">AstroCactus</a
-			>. It uses <a
-				class="cactus-link"
-				href="https://www.typescriptlang.org/"
-				rel="external">TypeScript</a
-			>, <a class="cactus-link" href="https://react.dev/" rel="external"
-				>ReactJS</a
-			> for components, <a
-				class="cactus-link"
-				href="https://tailwindcss.com/"
-				rel="external">TailwindCSS</a
-			> for styling, and <a
-				class="cactus-link"
-				href="https://www.markdownguide.org/"
-				rel="external">Markdown</a
-			> for blog content. The code and syntax highlighting are handled by <a
+			>. It uses <a class="cactus-link" href="https://www.typescriptlang.org/" rel="external"
+				>TypeScript</a
+			>, <a class="cactus-link" href="https://react.dev/" rel="external">ReactJS</a> for components,
+			<a class="cactus-link" href="https://tailwindcss.com/" rel="external">TailwindCSS</a> for styling,
+			and <a class="cactus-link" href="https://www.markdownguide.org/" rel="external">Markdown</a> for
+			blog content. The code and syntax highlighting are handled by <a
 				class="cactus-link"
 				href="https://expressive-code.com/"
 				rel="external">Expressive Code</a
-			>. The icons use <a
-				class="cactus-link"
-				href="https://www.astroicon.dev/"
-				rel="external">Astro Icon</a
-			>. I'm using the <a
-				class="cactus-link"
-				href="https://astro.build/"
-				rel="external">Astro.build</a
+			>. The icons use <a class="cactus-link" href="https://www.astroicon.dev/" rel="external"
+				>Astro Icon</a
+			>. I'm using the <a class="cactus-link" href="https://astro.build/" rel="external"
+				>Astro.build</a
 			> framework and hosting on <a
 				class="cactus-link"
 				href="https://www.netlify.com/"
@@ -142,14 +158,11 @@ const mikeTech: { desc: string; title: string }[] = [
 		>
 
 		<p class="mt-8">
-			As a Front End Developer its my job and goal to build a website that is
-			usable for the widest possible audience regardless of technology or
-			ability.
+			As a Front End Developer its my job and goal to build a website that is usable for the widest
+			possible audience regardless of technology or ability.
 		</p>
-		<a
-			class="cactus-link mt-4 inline-block"
-			data-astro-prefetch
-			href="/accessibility">Accessibility statement</a
+		<a class="cactus-link mt-4 inline-block" data-astro-prefetch href="/accessibility"
+			>Accessibility statement</a
 		>
 	</section>
 </PageLayout>
