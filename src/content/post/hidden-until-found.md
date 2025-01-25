@@ -2,7 +2,7 @@
 title: "HTML: hidden until-found"
 description: "How to make collapsed content, such as an accordian, accessible with hidden=until-found."
 publishDate: "7 November 2024"
-tags: ["css", "dev", "a11y"]
+tags: ["css", "dev", "a11y", "dev tips and tricks"]
 ---
 
 ## The Problem

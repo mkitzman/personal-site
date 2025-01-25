@@ -1,6 +1,6 @@
 ---
-title: "October Dev Link roundup"
-description: "October Link roundup with a bunch of links to some great developer articles I've read recently."
+title: "Fall 2024 Dev Link roundup"
+description: "Fall 2024 Link roundup with a bunch of links to some great developer articles I've read recently."
 publishDate: "20 November 2024"
 tags: ["dev", "link roundup", "css", "accessibility"]
 ---

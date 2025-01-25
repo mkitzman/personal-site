@@ -2,7 +2,7 @@
 title: "Enhancing Readability with CSS text-wrap: balance"
 description: "Enhancing Readability with CSS text-wrap: balance."
 publishDate: "18 November 2024"
-tags: ["css", "dev", "a11y"]
+tags: ["css", "dev", "a11y", "dev tips and tricks"]
 ---
 
 ## The Problem
