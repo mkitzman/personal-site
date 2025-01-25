@@ -1,5 +1,5 @@
 ---
-title: "Using Chrome Dev Tools Color Contrast Checker"
+title: "Ensuring Color Contrast with Chrome DevTools"
 description: "How to use Google Dev Tools to make sure your colors pass WCAG color contrast."
 publishDate: "25 January 2025"
 tags: ["ally", "accessibility", "dev", "dev tools", "dev tips and tricks"]
