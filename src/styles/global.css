@@ -13,6 +13,8 @@
 		--theme-accent: 351deg 66% 48%;
 		--theme-accent-2: 0deg 0% 7%;
 		--theme-quote: 351deg 66% 48%;
+		--cactus-link: #0d4792; /*  Chelsea Blue */
+		--nav-link: #a91627; /* ally Chelsea Red */
 	}
 
 	:root[data-theme="dark"] {
@@ -23,6 +25,8 @@
 		--theme-accent: 159deg 64% 45%;
 		--theme-accent-2: 0deg 0% 93%;
 		--theme-quote: 102deg 100% 86%;
+		--cactus-link: #d8a031; /* ally Chelsea Gold */
+		--nav-link: #ff334e; /* a11y Chelsea Red */
 	}
 }
 
@@ -34,4 +38,12 @@
 
 .blog-textwrap-balance {
 	text-wrap: balance;
+}
+
+.cactus-link {
+	color: var(--cactus-link);
+}
+
+nav a {
+	color: var(--nav-link);
 }
