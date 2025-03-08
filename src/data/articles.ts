@@ -12,7 +12,7 @@ const articles: {
 
     
 	{
-		title: "`They Stole Yogi Berra’s World Series Rings. Then They Did Something Really Crazy.",
+		title: "They Stole Yogi Berra’s World Series Rings. Then They Did Something Really Crazy.",
 		desc: "The childhood friends behind the most audacious string of sports-memorabilia heists in American history",
 		href: "https://www.theatlantic.com/magazine/archive/2025/02/sports-memorabilia-heist-yogi-berra-world-series-rings/681093/",
 		date: "January 2025",
