@@ -47,3 +47,13 @@
 nav a {
 	color: var(--nav-link);
 }
+
+.header-logo {
+	display: flex;
+	margin-right: 10px;
+}
+
+.header-icons button {
+	width: 30px;
+	height: 30px;
+}

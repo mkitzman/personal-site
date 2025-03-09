@@ -46,12 +46,7 @@ const recentArticles = allArticles.slice(0, 5);
 			{
 				recentArticles.map(({ desc, href, title, date, source }) => (
 					<li class="mb-8">
-						<a
-							class="cactus-link whitespace-nowrap font-bold"
-							href={href}
-							rel="noreferrer"
-							target="_blank"
-						>
+						<a class="cactus-link font-bold" href={href} rel="noreferrer" target="_blank">
 							{title}
 						</a>
 						<p class="mt-2">{desc}</p>
@@ -63,9 +58,7 @@ const recentArticles = allArticles.slice(0, 5);
 			}
 		</ul>
 
-		<a class="cactus-link mt-8 flex whitespace-nowrap font-bold" href="/recommended/"
-			>More Recommendations</a
-		>
+		<a class="cactus-link mt-8 flex font-bold" href="/recommended/">More Recommendations</a>
 	</section>
 	<section class="mt-16">
 		<h2 class="title mb-4 text-xl">About this site</h2>
@@ -96,7 +89,7 @@ const recentArticles = allArticles.slice(0, 5);
 				class="cactus-link"
 				href="https://pagefind.app/"
 				rel="external">Pagefind static search library</a
-			> integration for search.
+			> integration for search. Logo created and drawn by Emma Kitzman.
 		</p>
 
 		<a

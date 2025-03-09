@@ -8,19 +8,21 @@ import Logo from "../../assets/logo.png";
 const url = new URL(Astro.request.url);
 ---
 
-<header class="group relative mb-28 flex items-center sm:ps-[4.5rem]" id="main-header">
+<header class="group relative mb-16 flex items-center sm:mb-28" id="main-header">
+	<Image
+		id="logo"
+		src={Logo}
+		alt="Logo: skull wearing cap smiling"
+		class="header-logo"
+		width={80}
+		height={80}
+	/>
 	<div class="flex sm:flex-col">
 		<a
 			aria-current={url.pathname === "/" ? "page" : false}
-			class="inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block"
+			class="hover:filter-none sm:relative sm:inline-block"
 			href="/"
 		>
-			<Image
-				id="logo"
-				src={Logo}
-				alt="Logo: skull wearing cap smiling"
-				class="me-3 h-20 w-6 sm:absolute sm:start-[-4.5rem] sm:me-0 sm:h-20 sm:w-20"
-			/>
 			<span class="text-xl font-bold sm:text-2xl">Michael Kitzman</span><br />
 			<span class="text-xl font-bold sm:text-2xl">Sr. Frontend Engineer</span>
 		</a>
@@ -43,47 +45,49 @@ const url = new URL(Astro.request.url);
 			}
 		</nav>
 	</div>
-	<Search />
-	<ThemeToggle />
-	<mobile-button>
-		<button
-			aria-expanded="false"
-			aria-haspopup="menu"
-			aria-label="Open main menu"
-			class="group relative ms-4 h-7 w-7 sm:invisible sm:hidden"
-			id="toggle-navigation-menu"
-			type="button"
-		>
-			<svg
-				aria-hidden="true"
-				class="absolute start-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 transition-all group-aria-expanded:scale-0 group-aria-expanded:opacity-0"
-				fill="none"
-				focusable="false"
-				id="line-svg"
-				stroke="currentColor"
-				stroke-width="1.5"
-				viewBox="0 0 24 24"
-				xmlns="http://www.w3.org/2000/svg"
+	<div class="header-icons flex flex-col items-center justify-center md:flex-row">
+		<Search />
+		<ThemeToggle />
+		<mobile-button>
+			<button
+				aria-expanded="false"
+				aria-haspopup="menu"
+				aria-label="Open main menu"
+				class="group relative ms-4 h-7 w-7 sm:invisible sm:hidden"
+				id="toggle-navigation-menu"
+				type="button"
 			>
-				<path d="M3.75 9h16.5m-16.5 6.75h16.5" stroke-linecap="round" stroke-linejoin="round"
-				></path>
-			</svg>
-			<svg
-				aria-hidden="true"
-				class="absolute start-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 scale-0 text-accent opacity-0 transition-all group-aria-expanded:scale-100 group-aria-expanded:opacity-100"
-				class="text-accent"
-				fill="none"
-				focusable="false"
-				id="cross-svg"
-				stroke="currentColor"
-				stroke-width="1.5"
-				viewBox="0 0 24 24"
-				xmlns="http://www.w3.org/2000/svg"
-			>
-				<path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path>
-			</svg>
-		</button>
-	</mobile-button>
+				<svg
+					aria-hidden="true"
+					class="absolute start-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 transition-all group-aria-expanded:scale-0 group-aria-expanded:opacity-0"
+					fill="none"
+					focusable="false"
+					id="line-svg"
+					stroke="currentColor"
+					stroke-width="1.5"
+					viewBox="0 0 24 24"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path d="M3.75 9h16.5m-16.5 6.75h16.5" stroke-linecap="round" stroke-linejoin="round"
+					></path>
+				</svg>
+				<svg
+					aria-hidden="true"
+					class="absolute start-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 scale-0 text-accent opacity-0 transition-all group-aria-expanded:scale-100 group-aria-expanded:opacity-100"
+					class="text-accent"
+					fill="none"
+					focusable="false"
+					id="cross-svg"
+					stroke="currentColor"
+					stroke-width="1.5"
+					viewBox="0 0 24 24"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path>
+				</svg>
+			</button>
+		</mobile-button>
+	</div>
 </header>
 
 <script>
