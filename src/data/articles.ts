@@ -8,9 +8,21 @@ const articles: {
 	date: string;
 	source: string;
 }[] = [
-
-
-    
+    	{
+		title: "Behind F1's Velvet Curtain",
+		desc: "If you wanted to turn someone into a socialist you could do it in about an hour by taking them for a spin around the paddock of a Formula 1 race. The kind of money I saw will haunt me forever.",
+		href: "https://web.archive.org/web/20240301170542/https://www.roadandtrack.com/car-culture/a46975496/behind-f1-velvet-curtain/",
+		date: "March 2024",
+		source: "Road & Track",
+	}, 
+	
+	{
+		title: "They Played Football as Children. Now Their Families Mourn",
+		desc: "They gave up the game after high school, but the damage seemingly was already done. Now, their families mourn and look for answers",
+		href: "https://www.rollingstone.com/culture/culture-features/cte-impact-young-football-players-1234804580/?src=longreads",
+		date: "September 2023",
+		source: "Rolling Stone",
+	}, 
 	{
 		title: "They Stole Yogi Berra’s World Series Rings. Then They Did Something Really Crazy.",
 		desc: "The childhood friends behind the most audacious string of sports-memorabilia heists in American history",
