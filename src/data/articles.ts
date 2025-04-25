@@ -8,7 +8,14 @@ const articles: {
 	date: string;
 	source: string;
 }[] = [
-    	{
+	{
+		title: "Bad Dojo: Tiger Schulmann Didn’t Get to Be America’s No. 1 Karate Kingpin Without Busting a Few Faces",
+		desc: "Former senseis and business partners accuse Schulmann of building his $35-million-a-year martial-arts empire with Mafia tactics. What, you expect him to apologize?",
+		href: "https://www.esquire.com/sports/a64452970/tiger-schulmann-martial-arts-empire-interview-2025/",
+		date: "April 2025",
+		source: "Esquire",
+	}, 
+    {
 		title: "Behind F1's Velvet Curtain",
 		desc: "If you wanted to turn someone into a socialist you could do it in about an hour by taking them for a spin around the paddock of a Formula 1 race. The kind of money I saw will haunt me forever.",
 		href: "https://web.archive.org/web/20240301170542/https://www.roadandtrack.com/car-culture/a46975496/behind-f1-velvet-curtain/",
