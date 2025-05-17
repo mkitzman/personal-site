@@ -9,6 +9,21 @@ const articles: {
 	source: string;
 }[] = [
 	{
+		title: "Is This the Worst-Ever Era of American Pop Culture?",
+		desc: "Meet the critics who believe the arts are in terminal decline.",
+		href: "https://archive.is/EFEGh",
+		date: "May 2025",
+		source: "The Atlantic",
+	}, 
+	{
+		title: "Inside the Very Peculiar and Wildly Popular World of Armored Medieval Combat",
+		desc: "Across America, in front of crowds of thousands, men and women are dressing up as knights from the Middle Ages and fighting one another. The weapons, violence, and chivalry are all real.",
+		href: "https://www.esquire.com/sports/a64742755/what-is-armored-mma-medieval-combat/",
+		date: "May 2025",
+		source: "Esquire",
+	}, 
+
+	{
 		title: "Bad Dojo: Tiger Schulmann Didn’t Get to Be America’s No. 1 Karate Kingpin Without Busting a Few Faces",
 		desc: "Former senseis and business partners accuse Schulmann of building his $35-million-a-year martial-arts empire with Mafia tactics. What, you expect him to apologize?",
 		href: "https://www.esquire.com/sports/a64452970/tiger-schulmann-martial-arts-empire-interview-2025/",
