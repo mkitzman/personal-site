@@ -9,6 +9,13 @@ const articles: {
 	source: string;
 }[] = [
 	{
+		title: "The Epic Rise and Fall of a Dark-Web Psychedelics Kingpin",
+		desc: "Interdimensional travel, sex with aliens, communion with God. Anything is possible with just a sprinkle of DMT. Akasha Song’s secret labs made millions of doses—and dollars—until the feds showed up.",
+		href: "https://www.wired.com/story/rise-fall-dark-web-psychedelics-kingpin-dmt/",
+		date: "May 2025",
+		source: "Wired",
+	}, 
+	{
 		title: "Is This the Worst-Ever Era of American Pop Culture?",
 		desc: "Meet the critics who believe the arts are in terminal decline.",
 		href: "https://archive.is/EFEGh",
