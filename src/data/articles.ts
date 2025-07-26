@@ -9,8 +9,22 @@ const articles: {
 	source: string;
 }[] = [
 	{
+		title: "It Was Already One of Texas’s Strangest Cold Cases. Then a Secretive Figure Appeared.",
+		desc: "Jason Landry’s disappearance confounded the state’s top investigators. When thousands of online sleuths got involved, intrigue turned into obsession.",
+		href: "https://www.texasmonthly.com/true-crime/jason-landry-missing-person-texas",
+		date: "July 2025",
+		source: "Texas Monthly",
+	}, 
+	{
+		title: "The General Theory of Enshittification",
+		desc: "It isn't a new phenomenon, but it seems to matter more",
+		href: "https://paulkrugman.substack.com/p/the-general-theory-of-enshittification",
+		date: "July 2025",
+		source: "Paul Krugman Substack",
+	}, 
+	{
 		title: "The Epic Rise and Fall of a Dark-Web Psychedelics Kingpin",
-		desc: "Interdimensional travel, sex with aliens, communion with God. Anything is possible with just a sprinkle of DMT. Akasha Song’s secret labs made millions of doses—and dollars—until the feds showed up.",
+		desc: "Interdimensional travel, sex with aliens, communion with God. Anything is possible with just a sprinkle of DMT. Akasha Song's secret labs made millions of doses—and dollars—until the feds showed up.",
 		href: "https://www.wired.com/story/rise-fall-dark-web-psychedelics-kingpin-dmt/",
 		date: "May 2025",
 		source: "Wired",
