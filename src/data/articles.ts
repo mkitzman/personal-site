@@ -9,8 +9,15 @@ const articles: {
 	source: string;
 }[] = [
 	{
-		title: "It Was Already One of Texas’s Strangest Cold Cases. Then a Secretive Figure Appeared.",
-		desc: "Jason Landry’s disappearance confounded the state’s top investigators. When thousands of online sleuths got involved, intrigue turned into obsession.",
+		title: "The House on West Clay Street",
+		desc: "Tabatha Pope thought she’d finally found an affordable place to live. It was the beginning of a nightmare.",
+		href: "https://www.curbed.com/article/houston-apartment-affordable-place-turned-hellish.html",
+		date: "January 2025",
+		source: "New York Magazine",
+	},
+	{
+		title: "It Was Already One of Texas's Strangest Cold Cases. Then a Secretive Figure Appeared.",
+		desc: "Jason Landry's disappearance confounded the state's top investigators. When thousands of online sleuths got involved, intrigue turned into obsession.",
 		href: "https://www.texasmonthly.com/true-crime/jason-landry-missing-person-texas",
 		date: "July 2025",
 		source: "Texas Monthly",
@@ -45,7 +52,7 @@ const articles: {
 	}, 
 
 	{
-		title: "Bad Dojo: Tiger Schulmann Didn’t Get to Be America’s No. 1 Karate Kingpin Without Busting a Few Faces",
+		title: "Bad Dojo: Tiger Schulmann Didn't Get to Be America's No. 1 Karate Kingpin Without Busting a Few Faces",
 		desc: "Former senseis and business partners accuse Schulmann of building his $35-million-a-year martial-arts empire with Mafia tactics. What, you expect him to apologize?",
 		href: "https://www.esquire.com/sports/a64452970/tiger-schulmann-martial-arts-empire-interview-2025/",
 		date: "April 2025",
@@ -67,7 +74,7 @@ const articles: {
 		source: "Rolling Stone",
 	}, 
 	{
-		title: "They Stole Yogi Berra’s World Series Rings. Then They Did Something Really Crazy.",
+		title: "They Stole Yogi Berra's World Series Rings. Then They Did Something Really Crazy.",
 		desc: "The childhood friends behind the most audacious string of sports-memorabilia heists in American history",
 		href: "https://www.theatlantic.com/magazine/archive/2025/02/sports-memorabilia-heist-yogi-berra-world-series-rings/681093/",
 		date: "January 2025",
@@ -89,7 +96,7 @@ const articles: {
 	},
 	{
 		title: "America Must Free Itself from the Tyranny of the Penny",
-		desc: "Few things symbolize our national dysfunction as much as this accursed coin, which we mint by the millions because it’s too worthless to spend.",
+		desc: "Few things symbolize our national dysfunction as much as this accursed coin, which we mint by the millions because it's too worthless to spend.",
 		href: "https://www.nytimes.com/2024/09/01/magazine/worthless-pennies-united-states-economy.html",
 		date: "September 2024",
 		source: "NY Times",
@@ -103,7 +110,7 @@ const articles: {
 	},
 	{
 		title:
-			"Want to convince a conspiracy theory believer they’re wrong? Don’t start with the truth",
+			"Want to convince a conspiracy theory believer they're wrong? Don't start with the truth",
 		desc: "People who believe conspiracies about the Trump assassination attempt or buy into QAnon are often seeking purpose or belonging — truth is beside the point.",
 		href: "https://www.latimes.com/opinion/story/2024-07-28/conspiracy-theories-trump-assassination-qanon",
 		date: "July 2024",
@@ -124,7 +131,7 @@ const articles: {
 		source: "Esquire",
 	},
 	{
-		title: "After 12 Years of Reviewing Restaurants, I’m Leaving the Table",
+		title: "After 12 Years of Reviewing Restaurants, I'm Leaving the Table",
 		desc: "Pete Wells is moving on from his role as the Times restaurant critic, a job with many rewards and maybe too many courses.",
 		href: "https://www.nytimes.com/2024/07/16/dining/pete-wells-steps-down-food-critic.html",
 		date: "July 2024",
@@ -139,7 +146,7 @@ const articles: {
 	},
 
 	{
-		title: "The Man Who Couldn’t Stop Going to College",
+		title: "The Man Who Couldn't Stop Going to College",
 		desc: "Benjamin B. Bolger has spent his whole life amassing academic degrees. What can we learn from him?",
 		href: "https://www.nytimes.com/2024/06/03/magazine/benjamin-bolger-college-harvard-yale.html",
 		date: "June 2024",
@@ -154,7 +161,7 @@ const articles: {
 	},
 	{
 		title: "The Ramen Lord",
-		desc: "At Chicago’s buzziest new restaurant, Mike Satinover is obsessed with one goal: making the perfect bowl of Japanese noodles.",
+		desc: "At Chicago's buzziest new restaurant, Mike Satinover is obsessed with one goal: making the perfect bowl of Japanese noodles.",
 		href: "https://www.chicagomag.com/chicago-magazine/march-2024/the-ramen-lord/",
 		date: "March 2024",
 		source: "Chicago Mag",
@@ -182,7 +189,7 @@ const articles: {
 		source: "NY Times",
 	},
 	{
-		title: "How an Alleged Con Man Tore Apart One of the Nineties’ Biggest Bands",
+		title: "How an Alleged Con Man Tore Apart One of the Nineties' Biggest Bands",
 		desc: "Live had some of the alt-rock era's hugest hits, but in recent years the former bandmates have been bitterly divided by legal drama and interpersonal conflict",
 		href: "https://www.rollingstone.com/music/music-features/live-alt-rock-band-crime-lawsuits-1234677011/",
 		date: "February 2023",
