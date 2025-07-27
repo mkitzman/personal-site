@@ -9,8 +9,15 @@ const articles: {
 	source: string;
 }[] = [
 	{
+		title: "Conversations with a Hit Man",
+		desc: "A former FBI agent traveled to Louisiana to ask a hired killer about a murder that haunted him. Then they started talking about a different case altogether.",
+		href: "https://magazine.atavist.com/2025/confessions-of-a-hit-man-larry-thompson-jim-leslie-george-dartois-louisiana-shreveport-cold-case?src=longreads",
+		date: "June 2025",
+		source: "The Atavist Magazine",
+	},
+	{
 		title: "The House on West Clay Street",
-		desc: "Tabatha Pope thought she’d finally found an affordable place to live. It was the beginning of a nightmare.",
+		desc: "Tabatha Pope thought she'd finally found an affordable place to live. It was the beginning of a nightmare.",
 		href: "https://www.curbed.com/article/houston-apartment-affordable-place-turned-hellish.html",
 		date: "January 2025",
 		source: "New York Magazine",
