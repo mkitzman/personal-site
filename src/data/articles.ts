@@ -1,6 +1,3 @@
-import { type CollectionEntry, getCollection } from "astro:content";
-import { siteConfig } from "@/site-config";
-
 const articles: {
 	desc: string;
 	title: string;
