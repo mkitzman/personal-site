@@ -7,11 +7,18 @@ const articles: {
 	href: string;
 	date: string;
 	source: string;
-}[] = [
+}[] = [	
+	{
+		title: "Dark Ride to the Source",
+		desc: "Holding on to Joy at Disneyland",
+		href: "https://www.vqronline.org/spring-2025/essays/dark-ride-source",
+		date: "July 2025",
+		source: "Virginia Quarterly Review",
+	},
 	{
 		title: "Conversations with a Hit Man",
 		desc: "A former FBI agent traveled to Louisiana to ask a hired killer about a murder that haunted him. Then they started talking about a different case altogether.",
-		href: "https://magazine.atavist.com/2025/confessions-of-a-hit-man-larry-thompson-jim-leslie-george-dartois-louisiana-shreveport-cold-case?src=longreads",
+		href: "https://magazine.atavist.com/2025/confessions-of-a-hit-man-larry-thompson-jim-leslie-george-dartois-louisiana-shreveport-cold-case",
 		date: "June 2025",
 		source: "The Atavist Magazine",
 	},
