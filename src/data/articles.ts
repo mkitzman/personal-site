@@ -6,6 +6,13 @@ const articles: {
 	source: string;
 }[] = [	
 	{
+		title: "The Crypto Maniacs and the Torture Townhouse",
+		desc: "How two men charged with an outrageous kidnapping scheme introduced a new kind of crime to the city.",
+		href: "https://nymag.com/intelligencer/article/william-duplessie-john-woeltz-nyc-clubs-crypto-soho-torture.html",
+		date: "August 2025",
+		source: "New York Magazine;",
+	},
+	{
 		title: "Dark Ride to the Source",
 		desc: "Holding on to Joy at Disneyland",
 		href: "https://www.vqronline.org/spring-2025/essays/dark-ride-source",
