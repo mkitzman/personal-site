@@ -27,6 +27,13 @@ const articles: {
 		source: "The Atavist Magazine",
 	},
 	{
+		title: "The Spectacular Burnout of a Solar Panel Salesman",
+		desc: "He thought he'd make millions of dollars selling solar panels door-to-door. The reality was much darker.",
+		href: "https://www.wired.com/story/spectacular-burnout-solar-panel-salesman/",
+		date: "January 2025",
+		source: "Wired",
+	},
+	{
 		title: "The House on West Clay Street",
 		desc: "Tabatha Pope thought she'd finally found an affordable place to live. It was the beginning of a nightmare.",
 		href: "https://www.curbed.com/article/houston-apartment-affordable-place-turned-hellish.html",
