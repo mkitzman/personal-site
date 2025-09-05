@@ -6,11 +6,25 @@ const articles: {
 	source: string;
 }[] = [	
 	{
+		title: "Hot Dog University",
+		desc: "Different zip codes, different lives, but somehow, they all trace the same strange road back to a place called Hot Dog University.",
+		href: "https://www.switchboardmagazine.com/monthly/hot-dog-university",
+		date: "2025",
+		source: "Bicycling",
+	},
+	{
+		title: "What Happened to Nash Quinn?",
+		desc: "Last summer, a University of Wyoming art professor pedaled his singlespeed into the Laramie wilderness and never came back. His friends and family are still hoping for answers.",
+		href: "https://www.bicycling.com/culture/a64237315/nash-quinn-missing-cyclist-wyoming/",
+		date: "May 2025",
+		source: "Bicycling",
+	},
+	{
 		title: "The Crypto Maniacs and the Torture Townhouse",
 		desc: "How two men charged with an outrageous kidnapping scheme introduced a new kind of crime to the city.",
 		href: "https://nymag.com/intelligencer/article/william-duplessie-john-woeltz-nyc-clubs-crypto-soho-torture.html",
 		date: "August 2025",
-		source: "New York Magazine;",
+		source: "New York Magazine",
 	},
 	{
 		title: "Dark Ride to the Source",
