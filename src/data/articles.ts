@@ -6,6 +6,13 @@ const articles: {
 	source: string;
 }[] = [	
 	{
+		title: "The Last Days Of Social Media",
+		desc: "Social media promised connection, but it has delivered exhaustion.",
+		href: "https://www.noemamag.com/the-last-days-of-social-media/",
+		date: "September, 2025",
+		source: "Noema",
+	},
+	{
 		title: "Hot Dog University",
 		desc: "Different zip codes, different lives, but somehow, they all trace the same strange road back to a place called Hot Dog University.",
 		href: "https://www.switchboardmagazine.com/monthly/hot-dog-university",
