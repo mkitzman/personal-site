@@ -6,6 +6,13 @@ const articles: {
 	source: string;
 }[] = [	
 	{
+		title: "Country Music Casualty: The Tortured Life and Untimely Death of Luke Bell",
+		desc: "The country singer was poised to be the next big thing, but his struggle with mental illness left him lost, alone, and on a path of self-destruction",
+		href: "https://www.rollingstone.com/music/music-features/luke-bell-country-singer-death-mental-health-1235460143/",
+		date: "November, 2025",
+		source: "Rolling Stone",
+	},
+	{
 		title: "The Last Days Of Social Media",
 		desc: "Social media promised connection, but it has delivered exhaustion.",
 		href: "https://www.noemamag.com/the-last-days-of-social-media/",
