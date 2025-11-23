@@ -5,6 +5,21 @@ const articles: {
 	date: string;
 	source: string;
 }[] = [	
+	
+	{
+		title: "Pop Culture Got Stale. Counterculture Went Right-Wing.",
+		desc: "How the rise and fall of the nihilist hipster gave us the cruel reactionaries of today.",
+		href: "https://www.nytimes.com/2025/11/21/books/review/culture-right-wing-david-marx.html",
+		date: "November, 2025",
+		source: "NY Times",
+	},
+	{
+		title: "How to Fix a Typewriter and Your Life",
+		desc: "This is the story of how a man traded steady, grinding corporate security for a dying craft and, in the process, found his soul.",
+		href: "https://www.nytimes.com/interactive/2025/11/20/us/typewriter-repair-seattle-bremerton.html",
+		date: "November, 2025",
+		source: "NY Times",
+	},
 	{
 		title: "Country Music Casualty: The Tortured Life and Untimely Death of Luke Bell",
 		desc: "The country singer was poised to be the next big thing, but his struggle with mental illness left him lost, alone, and on a path of self-destruction",
