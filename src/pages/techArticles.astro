@@ -1,0 +1,38 @@
+---
+import PageLayout from "@/layouts/Base.astro";
+import { getAllTechArticles } from "@/data/techArticles";
+const allTechArticles = await getAllTechArticles();
+
+const meta = {
+	description: "A collection of tech  articles.",
+	title: "techArticles",
+};
+---
+
+<PageLayout meta={meta}>
+	<div class="space-y-6">
+		<h1 class="title">Tech Articles</h1>
+		<section class="mt-16">
+			<ul class="space-y-4">
+				{
+					allTechArticles.map(({ desc, href, title, date, source, author }) => (
+						<li class="mb-8">
+							<a
+								class="cactus-link whitespace-nowrap font-bold"
+								href={href}
+								rel="noreferrer"
+								target="_blank"
+							>
+								{title}
+							</a>
+							<p class="mt-2">{desc}</p>
+							<span class="text-xs italic">
+								{date} - {author ? author + " - " : ""} {source}
+							</span>
+						</li>
+					))
+				}
+			</ul>
+		</section>
+	</div>
+</PageLayout>

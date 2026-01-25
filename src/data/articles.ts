@@ -7,6 +7,27 @@ const articles: {
 }[] = [	
 	
 	{
+		title: "Becoming a Centenarian",
+		desc: "Like The New Yorker, I was born in 1925. Somewhat to my surprise, I decided to keep a journal of my hundredth year.",
+		href: "https://www.newyorker.com/magazine/2025/12/22/becoming-a-centenarian",
+		date: "December, 2025",
+		source: "The New Yorker",
+	},
+	{
+		title: "Legend - Bob Marley & the Wailers",
+		desc: "Today, we revisit the ubiquitous 1984 Bob Marley compilation Legend, a woefully incomplete portrait of the Jamaican artist that, nevertheless, became legendary.",
+		href: "https://pitchfork.com/reviews/albums/bob-marley-and-the-wailers-legend",
+		date: "January, 2026",
+		source: "Pitchfork",
+	},
+	{
+		title: "The Age of Cultural Stagnation",
+		desc: "Has tech plunged culture into an era devoid of originality and surprise?",
+		href: "https://newrepublic.com/article/179432/age-cultural-stagnation",
+		date: "March, 2024",
+		source: "The New Republic",
+	},
+	{
 		title: "Pop Culture Got Stale. Counterculture Went Right-Wing.",
 		desc: "How the rise and fall of the nihilist hipster gave us the cruel reactionaries of today.",
 		href: "https://www.nytimes.com/2025/11/21/books/review/culture-right-wing-david-marx.html",
