@@ -7,6 +7,22 @@ const techArticles: {
 	author: string;
 }[] = [	
     {
+        title: "Using AI as a design engineer",
+        desc: "I don't use AI to come up with ideas or to replace my own thinking. I use it to accelerate my workflow.",
+        href: "https://jakub.kr/work/using-ai-as-a-design-engineer",
+        date: "January, 2026",
+        author: "Jakub",
+        source: "jakub.kr",
+    },
+    {
+        title: "Stop turning everything into arrays and do less work instead",
+        desc: "Iterator helpers in JavaScript gives us a native, lazy alternative that’s especially relevant for dealing with large datasets, streams, and UI-driven logic.",
+        href: "https://allthingssmitty.com/2026/01/12/stop-turning-everything-into-arrays-and-do-less-work-instead/",
+        date: "January, 2026",
+        author: "Matt Smith",
+        source: "allthingssmitty.com",
+    },
+    {
         title: "The State of CSS 2025",
         desc: "Yearly survey on the state of CSS.",
         href: "https://2025.stateofcss.com/en-US/features/",
@@ -29,6 +45,14 @@ const techArticles: {
         date: "January, 2026",
         author: "Maggie Appleton",
         source: "maggieappleton.com",
+    },
+    {
+        title: "Chrome DevTools for Debugging Web Performance",
+        desc: "This is a step-by-step guide on how I use Chrome DevTools (DevTools from now on) to detect Web Performance issues on a website, as well as validate hypotheses to fix some of the problems found.",
+        href: "https://calendar.perfplanet.com/2025/chrome-devtools-for-debugging-web-performance/",
+        date: "December, 2025",
+        author: "Joan León",
+        source: "perfplanet.com",
     },
     {
         title: "::target-text:",

@@ -5,7 +5,20 @@ const articles: {
 	date: string;
 	source: string;
 }[] = [	
-	
+	{
+		title: "On Tilt",
+		desc: "America's new gambling epidemic",
+		href: "https://harpers.org/archive/2026/02/on-tilt-america-gambling-epidemic-jasper-craven/",
+		date: "February, 2026",
+		source: "Harper's Magazine",
+	},	
+	{
+		title: "Life on Peptides Feels Amazing ",
+		desc: "Says everyone who's buying from looksmaxxers on Instagram or AI bots in China and injecting them into their bloodstream.",
+		href: "https://nymag.com/intelligencer/article/peptides-from-instagram-china-wellness-cure.html",
+		date: "January, 2026",
+		source: "New York Magazine",
+	},	
 	{
 		title: "Becoming a Centenarian",
 		desc: "Like The New Yorker, I was born in 1925. Somewhat to my surprise, I decided to keep a journal of my hundredth year.",
