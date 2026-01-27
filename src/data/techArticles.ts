@@ -7,11 +7,19 @@ const techArticles: {
 	author: string;
 }[] = [	
     {
+        title: "12 Principles of Animation",
+        desc: "Great animation is purposeful, subtle, and rooted in the principles that have guided designers for decades.",
+        href: "https://www.userinterface.wiki/12-principles-of-animation",
+        date: "April, 2025",
+        author: "Raphael Salaja",
+        source: "serinterface.wiki/",
+    },
+    {
         title: "Using AI as a design engineer",
         desc: "I don't use AI to come up with ideas or to replace my own thinking. I use it to accelerate my workflow.",
         href: "https://jakub.kr/work/using-ai-as-a-design-engineer",
         date: "January, 2026",
-        author: "Jakub",
+        author: "Jakub Krehel",
         source: "jakub.kr",
     },
     {
