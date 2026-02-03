@@ -7,6 +7,14 @@ const techArticles: {
 	author: string;
 }[] = [	
     {
+        title: "The AI-Powered Web Is Eating Itself",
+        desc: "Without a framework of “Artificial Integrity,” AI search platforms risk collapsing the information commons that made the web possible.",
+        href: "https://www.noemamag.com/the-ai-powered-web-is-eating-itself",
+        date: "January, 2026",
+        author: "Hamilton Mann",
+        source: "noemamag.com",
+    },
+    {
         title: "12 Principles of Animation",
         desc: "Great animation is purposeful, subtle, and rooted in the principles that have guided designers for decades.",
         href: "https://www.userinterface.wiki/12-principles-of-animation",
