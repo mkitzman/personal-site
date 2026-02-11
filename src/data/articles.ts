@@ -5,6 +5,21 @@ const articles: {
 	date: string;
 	source: string;
 }[] = [	
+
+	{
+		title: "He called himself an 'untouchable hacker god'. But who was behind the biggest crime Finland has ever known?",
+		desc: "How would you feel if your therapist's notes - your darkest thoughts and deepest feelings - were exposed to the world? For 33,000 Finnish people, that became a terrifying reality, with deadly consequences",
+		href: "https://www.theguardian.com/technology/2026/jan/17/vastaamo-hack-finland-therapy-notes",
+		date: "January, 2026",
+		source: "theguardian.com",
+	},
+	{
+		title: "Franchise Thinking",
+		desc: "On the sequel economics of ideas.",
+		href: "https://www.workingtheorys.com/p/franchise-thinking",
+		date: "February, 2026",
+		source: "workingtheorys.com",
+	},
 	{
 		title: "On Tilt",
 		desc: "America's new gambling epidemic",
