@@ -7,6 +7,14 @@ const techArticles: {
 	author: string;
 }[] = [	
     {
+        title: "Dreams of Stability",
+        desc: "Tech's New Corporate & the status in safety nets.",
+        href: "https://www.workingtheorys.com/p/stability",
+        date: "February, 2026",
+        author: "Anu Atluru",
+        source: "workingtheorys.com",
+    },
+    {
         title: "The AI-Powered Web Is Eating Itself",
         desc: "Without a framework of “Artificial Integrity,” AI search platforms risk collapsing the information commons that made the web possible.",
         href: "https://www.noemamag.com/the-ai-powered-web-is-eating-itself",
