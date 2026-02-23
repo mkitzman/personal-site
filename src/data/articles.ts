@@ -5,7 +5,13 @@ const articles: {
 	date: string;
 	source: string;
 }[] = [	
-
+	{
+		title: "Cryptobiosis, or",
+		desc: "What Will Happen to All Our Emails When We Die",
+		href: "https://www.emptysetmag.com/articles/cryptobiosis",
+		date: "January, 2026",
+		source: "emptysetmag.com",
+	},
 	{
 		title: "He called himself an 'untouchable hacker god'. But who was behind the biggest crime Finland has ever known?",
 		desc: "How would you feel if your therapist's notes - your darkest thoughts and deepest feelings - were exposed to the world? For 33,000 Finnish people, that became a terrifying reality, with deadly consequences",
